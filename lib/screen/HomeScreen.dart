@@ -1,3 +1,4 @@
+import 'package:beauty_store_app/screen/second_screen.dart';
 import 'package:flutter/material.dart';
 
 class HomeScreen extends StatelessWidget {
@@ -13,7 +14,7 @@ class HomeScreen extends StatelessWidget {
             alignment: Alignment.topCenter,
             height: double.infinity,
             width: double.infinity,
-            color: Colors.pinkAccent,
+            color: Color(0xFFFC9184),
             child: Image.network(
              "https://i1.wp.com/sparkleisthenewblack.com/wp-content/uploads/2015/04/Molimakeup-Smile-e1429768217376.jpg?resize=600%2C600",
               fit: BoxFit.fill,
@@ -59,7 +60,7 @@ class HomeScreen extends StatelessWidget {
                       width: double.infinity,
                       child: ElevatedButton(
                         onPressed: () {
-                          // Add functionality for the "Start Now" button
+                          Navigator.pushNamed(context, "secondScreen");
                         },
                         style: ElevatedButton.styleFrom(
                           primary: Color(0xFFFC9184),
