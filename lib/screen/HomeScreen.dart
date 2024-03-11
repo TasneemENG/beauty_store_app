@@ -1,4 +1,3 @@
-import 'package:beauty_store_app/screen/second_screen.dart';
 import 'package:flutter/material.dart';
 
 class HomeScreen extends StatelessWidget {
@@ -63,7 +62,7 @@ class HomeScreen extends StatelessWidget {
                           Navigator.pushNamed(context, "secondScreen");
                         },
                         style: ElevatedButton.styleFrom(
-                          primary: Color(0xFFFC9184),
+                          backgroundColor: Color(0xFFFC9184),
                           shape: RoundedRectangleBorder(
                             borderRadius: BorderRadius.circular(10.0), // Adjust the button's shape
                           ),
