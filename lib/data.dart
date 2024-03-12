@@ -1,4 +1,3 @@
-// Categories
 import 'models/category.dart';
 import 'models/material.dart';
 
