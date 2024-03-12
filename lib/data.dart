@@ -13,6 +13,22 @@ const List<Category> categories = [
 
 // Materials
 const List<Material> materials = [
+  Material(
+    id: "m15",
+    title: "Gel Blush",
+    imageUrl: "makeup/photo_2024-03-11_14-32-34.jpg",
+    salary: "19",
+    description: "Gel-based blush for a natural and dewy finish.",
+    categoryNumber: "c2",
+  ),
+  Material(
+    id: "m16",
+    title: "Powder Blush Palette",
+    imageUrl: "makeup/photo_2024-03-11_14-32-36.jpg",
+    salary: "28",
+    description: "Palette featuring multiple shades of powder blush",
+    categoryNumber: "c2",
+  ),
   // Foundation
   Material(
     id: "m1",
@@ -29,6 +45,22 @@ const List<Material> materials = [
     salary: "30",
     description: "Matte finish foundation with long-lasting coverage.",
     categoryNumber: "c1",
+  ),
+  Material(
+    id: "m17",
+    title: "Matte Lipstick - Red",
+    imageUrl: "makeup/photo_2024-03-11_14-32-42.jpg",
+    salary: "12",
+    description: "Long-lasting matte lipstick in bold red shade.",
+    categoryNumber: "c3",
+  ),
+  Material(
+    id: "m18",
+    title: "Matte Lipstick - Nude",
+    imageUrl: "makeup/photo_2024-03-11_14-32-43.jpg",
+    salary: "12",
+    description: "Long-lasting matte lipstick in nude shade.",
+    categoryNumber: "c3",
   ),
   Material(
     id: "m3",
@@ -148,22 +180,6 @@ const List<Material> materials = [
   // Add more blush materials...
 
   // Lipstick
-  Material(
-    id: "m17",
-    title: "Matte Lipstick - Red",
-    imageUrl: "makeup/photo_2024-03-11_14-32-42.jpg",
-    salary: "12",
-    description: "Long-lasting matte lipstick in bold red shade.",
-    categoryNumber: "c3",
-  ),
-  Material(
-    id: "m18",
-    title: "Matte Lipstick - Nude",
-    imageUrl: "makeup/photo_2024-03-11_14-32-43.jpg",
-    salary: "12",
-    description: "Long-lasting matte lipstick in nude shade.",
-    categoryNumber: "c3",
-  ),
   Material(
     id: "m19",
     title: "Cream Lipstick",
@@ -414,14 +430,6 @@ const List<Material> materials = [
     imageUrl: "makeup/photo_2024-03-12_11-00-23.jpg",
     salary: "10",
     description: "Lip balm with a hint of color to provide a subtle tint while hydrating the lips.",
-    categoryNumber: "c7",
-  ),
-  Material(
-    id: "m49",
-    title: "SPF Lip Balm",
-    imageUrl: "makeup/photo_2024-03-12_11-00-24.jpg",
-    salary: "12",
-    description: "Lip balm with SPF protection to shield lips from the sun's harmful UV rays.",
     categoryNumber: "c7",
   ),
 

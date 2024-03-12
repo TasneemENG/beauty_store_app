@@ -1,4 +1,5 @@
 import 'package:beauty_store_app/data.dart';
+import 'package:beauty_store_app/screen/MaterialScreen.dart';
 import 'package:beauty_store_app/widget/CategoryItem.dart';
 import 'package:beauty_store_app/widget/MaterialItem.dart';
 import 'package:carousel_slider/carousel_slider.dart';
@@ -28,12 +29,19 @@ class _SecondScreenState extends State<SecondScreen> {
               //SizedBox(height: 4),
               Container(
                 height: 300,
-                //color: Color(0xFFFC9184),
                 child: CarouselSlider(
                   items: categories.map((category) {
                     return CategoryItem(
                       categoryName: category.name,
                       categoryImage: category.image,
+                      onTap: () {
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                            builder: (context) => MaterialScreen(categoryName: category.name, id: category.id),
+                          ),
+                        );
+                      },
                     );
                   }).toList(),
                   options: CarouselOptions(
