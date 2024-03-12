@@ -425,6 +425,6 @@ const List<Material> materials = [
     description: "Lip balm with SPF protection to shield lips from the sun's harmful UV rays.",
     categoryNumber: "c7",
   ),
-  
+
   // Add more lip balm materials...
 ];
