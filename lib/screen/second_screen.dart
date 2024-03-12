@@ -19,7 +19,20 @@ class _SecondScreenState extends State<SecondScreen> {
       appBar: AppBar(
         backgroundColor: Color(0xFFFC9184),
         title: Text("Beauty Store", style: TextStyle(color: Colors.white, fontWeight: FontWeight.bold ),),
-
+        actions: [
+          IconButton(
+            icon: Icon(Icons.search, color: Colors.white),
+            onPressed: () {
+              // Add your search logic here
+            },
+          ),
+          IconButton(
+            icon: Icon(Icons.shopping_cart, color: Colors.white),
+            onPressed: () {
+              // Add your shopping cart logic here
+            },
+          ),
+        ],
       ),
       body: ListView(
         children: [
