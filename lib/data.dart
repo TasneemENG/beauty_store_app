@@ -3,13 +3,13 @@ import 'models/category.dart';
 import 'models/material.dart';
 
 const List<Category> categories = [
-  Category(id: "c1", name: "Foundation", image: "photo_2024-03-11_14-32-09.jpg"),
-  Category(id: "c2", name: "Blush", image: "photo_2024-03-11_14-32-33.jpg"),
-  Category(id: "c3", name: "Lipstick", image: "photo_2024-03-11_14-32-58.jpg"),
-  Category(id: "c4", name: "Mascara", image: "photo_2024-03-11_14-33-07.jpg"),
-  Category(id: "c5", name: "Face Wash", image: "photo_2024-03-12_11-00-09.jpg"),
-  Category(id: "c6", name: "Toner", image: "photo_2024-03-12_11-00-14.jpg"),
-  Category(id: "c7", name: "Lip Balm", image: "photo_2024-03-12_11-00-21.jpg"),
+  Category(id: "c1", name: "Foundation", image: "makeup/photo_2024-03-11_14-32-09.jpg"),
+  Category(id: "c2", name: "Blush", image: "makeup/photo_2024-03-11_14-32-33.jpg"),
+  Category(id: "c3", name: "Lipstick", image: "makeup/photo_2024-03-11_14-32-58.jpg"),
+  Category(id: "c4", name: "Mascara", image: "makeup/photo_2024-03-11_14-33-07.jpg"),
+  Category(id: "c5", name: "Face Wash", image: "makeup/photo_2024-03-12_11-00-09.jpg"),
+  Category(id: "c6", name: "Toner", image: "makeup/photo_2024-03-12_11-00-14.jpg"),
+  Category(id: "c7", name: "Lip Balm", image: "makeup/photo_2024-03-12_11-00-21.jpg"),
 ];
 
 // Materials
@@ -18,7 +18,7 @@ const List<Material> materials = [
   Material(
     id: "m1",
     title: "Liquid Foundation - Shade 1",
-    imageUrl: "photo_2024-03-11_14-32-05.jpg",
+    imageUrl: "makeup/photo_2024-03-11_14-32-05.jpg",
     salary: "25",
     description: "Medium coverage liquid foundation for all skin types.",
     categoryNumber: "c1",
@@ -26,7 +26,7 @@ const List<Material> materials = [
   Material(
     id: "m2",
     title: "Matte Foundation",
-    imageUrl: "photo_2024-03-11_14-32-07.jpg",
+    imageUrl: "makeup/photo_2024-03-11_14-32-07.jpg",
     salary: "30",
     description: "Matte finish foundation with long-lasting coverage.",
     categoryNumber: "c1",
@@ -34,7 +34,7 @@ const List<Material> materials = [
   Material(
     id: "m3",
     title: "Dewy Foundation",
-    imageUrl: "photo_2024-03-11_14-32-10.jpg",
+    imageUrl: "makeup/photo_2024-03-11_14-32-10.jpg",
     salary: "28",
     description: "Dewy finish foundation for hydrated and glowing skin.",
     categoryNumber: "c1",
@@ -42,7 +42,7 @@ const List<Material> materials = [
   Material(
     id: "m4",
     title: "Powder Foundation",
-    imageUrl: "photo_2024-03-11_14-32-12.jpg",
+    imageUrl: "makeup/photo_2024-03-11_14-32-12.jpg",
     salary: "20",
     description: "Lightweight powder foundation for a natural look.",
     categoryNumber: "c1",
@@ -50,7 +50,7 @@ const List<Material> materials = [
   Material(
     id: "m5",
     title: "Stick Foundation",
-    imageUrl: "photo_2024-03-11_14-32-14.jpg",
+    imageUrl: "makeup/photo_2024-03-11_14-32-14.jpg",
     salary: "35",
     description: "Creamy stick foundation for easy application and blending.",
     categoryNumber: "c1",
@@ -58,7 +58,7 @@ const List<Material> materials = [
   Material(
     id: "m6",
     title: "Mineral Foundation",
-    imageUrl: "photo_2024-03-11_14-32-16.jpg",
+    imageUrl: "makeup/photo_2024-03-11_14-32-16.jpg",
     salary: "32",
     description: "Mineral-based foundation suitable for sensitive skin.",
     categoryNumber: "c1",
@@ -66,7 +66,7 @@ const List<Material> materials = [
   Material(
     id: "m7",
     title: "BB Cream",
-    imageUrl: "photo_2024-03-11_14-32-18.jpg",
+    imageUrl: "makeup/photo_2024-03-11_14-32-18.jpg",
     salary: "27",
     description: "All-in-one BB cream for hydration, coverage, and sun protection.",
     categoryNumber: "c1",
@@ -74,7 +74,7 @@ const List<Material> materials = [
   Material(
     id: "m8",
     title: "CC Cream",
-    imageUrl: "photo_2024-03-11_14-32-19.jpg",
+    imageUrl: "makeup/photo_2024-03-11_14-32-19.jpg",
     salary: "29",
     description: "Color-correcting CC cream to even out skin tone.",
     categoryNumber: "c1",
@@ -85,7 +85,7 @@ const List<Material> materials = [
   Material(
     id: "m9",
     title: "Powder Blush - Pink",
-    imageUrl: "photo_2024-03-11_14-32-26.jpg",
+    imageUrl: "makeup/photo_2024-03-11_14-32-26.jpg",
     salary: "18",
     description: "Matte powder blush for a natural flush of color.",
     categoryNumber: "c2",
@@ -93,7 +93,7 @@ const List<Material> materials = [
   Material(
     id: "m10",
     title: "Cream Blush",
-    imageUrl: "photo_2024-03-11_14-32-27.jpg",
+    imageUrl: "makeup/photo_2024-03-11_14-32-27.jpg",
     salary: "18",
     description: "Creamy blush for a dewy and natural-looking flush.",
     categoryNumber: "c2",
@@ -101,7 +101,7 @@ const List<Material> materials = [
   Material(
     id: "m11",
     title: "Liquid Blush",
-    imageUrl: "photo_2024-03-11_14-32-28.jpg",
+    imageUrl: "makeup/photo_2024-03-11_14-32-28.jpg",
     salary: "20",
     description: "Lightweight liquid blush for a sheer and buildable color.",
     categoryNumber: "c2",
@@ -109,7 +109,7 @@ const List<Material> materials = [
   Material(
     id: "m12",
     title: "Mineral Blush",
-    imageUrl: "photo_2024-03-11_14-32-30.jpg",
+    imageUrl: "makeup/photo_2024-03-11_14-32-30.jpg",
     salary: "16",
     description: "Mineral-based blush with a matte finish.",
     categoryNumber: "c2",
@@ -117,7 +117,7 @@ const List<Material> materials = [
   Material(
     id: "m13",
     title: "Baked Blush",
-    imageUrl: "photo_2024-03-11_14-32-31.jpg",
+    imageUrl: "makeup/photo_2024-03-11_14-32-31.jpg",
     salary: "22",
     description: "Baked blush with a luminous and radiant glow.",
     categoryNumber: "c2",
@@ -125,7 +125,7 @@ const List<Material> materials = [
   Material(
     id: "m14",
     title: "photo_2024-03-11_14-32-32.jpg",
-    imageUrl: "cheek_stain.jpg",
+    imageUrl: "makeup/cheek_stain.jpg",
     salary: "24",
     description: "Long-lasting cheek stain for a natural flush of color.",
     categoryNumber: "c2",
@@ -133,7 +133,7 @@ const List<Material> materials = [
   Material(
     id: "m15",
     title: "Gel Blush",
-    imageUrl: "photo_2024-03-11_14-32-34.jpg",
+    imageUrl: "makeup/photo_2024-03-11_14-32-34.jpg",
     salary: "19",
     description: "Gel-based blush for a natural and dewy finish.",
     categoryNumber: "c2",
@@ -141,7 +141,7 @@ const List<Material> materials = [
   Material(
     id: "m16",
     title: "Powder Blush Palette",
-    imageUrl: "photo_2024-03-11_14-32-36.jpg",
+    imageUrl: "makeup/photo_2024-03-11_14-32-36.jpg",
     salary: "28",
     description: "Palette featuring multiple shades of powder blush for versatile looks.",
     categoryNumber: "c2",
@@ -152,7 +152,7 @@ const List<Material> materials = [
   Material(
     id: "m17",
     title: "Matte Lipstick - Red",
-    imageUrl: "photo_2024-03-11_14-32-42.jpg",
+    imageUrl: "makeup/photo_2024-03-11_14-32-42.jpg",
     salary: "12",
     description: "Long-lasting matte lipstick in bold red shade.",
     categoryNumber: "c3",
@@ -160,7 +160,7 @@ const List<Material> materials = [
   Material(
     id: "m18",
     title: "Matte Lipstick - Nude",
-    imageUrl: "photo_2024-03-11_14-32-43.jpg",
+    imageUrl: "makeup/photo_2024-03-11_14-32-43.jpg",
     salary: "12",
     description: "Long-lasting matte lipstick in nude shade.",
     categoryNumber: "c3",
@@ -168,7 +168,7 @@ const List<Material> materials = [
   Material(
     id: "m19",
     title: "Cream Lipstick",
-    imageUrl: "photo_2024-03-11_14-32-47.jpg",
+    imageUrl: "makeup/photo_2024-03-11_14-32-47.jpg",
     salary: "24",
     description: "Smooth and creamy lipstick with a satin finish.",
     categoryNumber: "c3",
@@ -176,7 +176,7 @@ const List<Material> materials = [
   Material(
     id: "m20",
     title: "Liquid Matte Lipstick",
-    imageUrl: "photo_2024-03-11_14-32-48.jpg",
+    imageUrl: "makeup/photo_2024-03-11_14-32-48.jpg",
     salary: "25",
     description: "Long-lasting liquid lipstick with a matte finish.",
     categoryNumber: "c3",
@@ -184,7 +184,7 @@ const List<Material> materials = [
   Material(
     id: "m21",
     title: "Sheer Lipstick",
-    imageUrl: "photo_2024-03-11_14-32-52.jpg",
+    imageUrl: "makeup/photo_2024-03-11_14-32-52.jpg",
     salary: "22",
     description: "Translucent lipstick for a subtle hint of color.",
     categoryNumber: "c3",
@@ -192,7 +192,7 @@ const List<Material> materials = [
   Material(
     id: "m22",
     title: "Lip Stain",
-    imageUrl: "photo_2024-03-11_14-32-50.jpg",
+    imageUrl: "makeup/photo_2024-03-11_14-32-50.jpg",
     salary: "20",
     description: "Lightweight and long-wearing lip color that leaves a stain effect.",
     categoryNumber: "c3",
@@ -200,7 +200,7 @@ const List<Material> materials = [
   Material(
     id: "m23",
     title: "Metallic Lipstick",
-    imageUrl: "photo_2024-03-11_14-32-51.jpg",
+    imageUrl: "makeup/photo_2024-03-11_14-32-51.jpg",
     salary: "26",
     description: "Lipstick with metallic pigments for a bold and shiny look.",
     categoryNumber: "c3",
@@ -208,7 +208,7 @@ const List<Material> materials = [
   Material(
     id: "m24",
     title: "Tinted Lip Balm",
-    imageUrl: "photo_2024-03-11_14-32-57.jpg",
+    imageUrl: "makeup/photo_2024-03-11_14-32-57.jpg",
     salary: "18",
     description: "Hydrating lip balm with a hint of color for a natural look.",
     categoryNumber: "c3",
@@ -219,7 +219,7 @@ const List<Material> materials = [
   Material(
     id: "m25",
     title: "Volumizing Mascara - Black",
-    imageUrl: "photo_2024-03-11_14-33-05.jpg",
+    imageUrl: "makeup/photo_2024-03-11_14-33-05.jpg",
     salary: "15",
     description: "Mascara that adds volume and length to lashes.",
     categoryNumber: "c4",
@@ -227,7 +227,7 @@ const List<Material> materials = [
   Material(
     id: "m26",
     title: "Volumizing Mascara - Brown",
-    imageUrl: "photo_2024-03-11_14-33-08.jpg",
+    imageUrl: "makeup/photo_2024-03-11_14-33-08.jpg",
     salary: "15",
     description: "Mascara that adds volume and length to lashes.",
     categoryNumber: "c4",
@@ -235,7 +235,7 @@ const List<Material> materials = [
   Material(
     id: "m27",
     title: "Waterproof Mascara",
-    imageUrl: "photo_2024-03-11_14-33-09.jpg",
+    imageUrl: "makeup/photo_2024-03-11_14-33-09.jpg",
     salary: "15",
     description: "Long-lasting mascara that is resistant to water and smudging.",
     categoryNumber: "c4",
@@ -243,7 +243,7 @@ const List<Material> materials = [
   Material(
     id: "m28",
     title: "Lengthening Mascara",
-    imageUrl: "photo_2024-03-11_14-33-10.jpg",
+    imageUrl: "makeup/photo_2024-03-11_14-33-10.jpg",
     salary: "18",
     description: "Mascara designed to lengthen and define lashes for a dramatic look.",
     categoryNumber: "c4",
@@ -251,7 +251,7 @@ const List<Material> materials = [
   Material(
     id: "m29",
     title: "Volumizing Mascara",
-    imageUrl: "photo_2024-03-11_14-33-11.jpg",
+    imageUrl: "makeup/photo_2024-03-11_14-33-11.jpg",
     salary: "20",
     description: "Mascara that adds volume and thickness to lashes for a bold appearance.",
     categoryNumber: "c4",
@@ -259,7 +259,7 @@ const List<Material> materials = [
   Material(
     id: "m30",
     title: "Curling Mascara",
-    imageUrl: "photo_2024-03-11_14-33-12.jpg",
+    imageUrl: "makeup/photo_2024-03-11_14-33-12.jpg",
     salary: "17",
     description: "Mascara that lifts and curls lashes for a wide-eyed effect.",
     categoryNumber: "c4",
@@ -267,7 +267,7 @@ const List<Material> materials = [
   Material(
     id: "m31",
     title: "Fiber Mascara",
-    imageUrl: "photo_2024-03-11_14-33-13.jpg",
+    imageUrl: "makeup/photo_2024-03-11_14-33-13.jpg",
     salary: "22",
     description: "Mascara infused with fibers to add length and volume to lashes.",
     categoryNumber: "c4",
@@ -275,7 +275,7 @@ const List<Material> materials = [
   Material(
     id: "m32",
     title: "Colorful Mascara",
-    imageUrl: "photo_2024-03-11_14-33-14.jpg",
+    imageUrl: "makeup/photo_2024-03-11_14-33-14.jpg",
     salary: "16",
     description: "Mascara available in vibrant colors for a playful and fun look.",
     categoryNumber: "c4",
@@ -286,7 +286,7 @@ const List<Material> materials = [
   Material(
     id: "m33",
     title: "Foaming Face Wash - Sensitive Skin",
-    imageUrl: "photo_2024-03-12_10-59-51.jpg",
+    imageUrl: "makeup/photo_2024-03-12_10-59-51.jpg",
     salary: "10",
     description: "Gentle foaming face wash for sensitive skin.",
     categoryNumber: "c5",
@@ -294,7 +294,7 @@ const List<Material> materials = [
   Material(
     id: "m34",
     title: "Foaming Face Wash - Acne Prone Skin",
-    imageUrl: "photo_2024-03-12_10-59-53.jpg",
+    imageUrl: "makeup/photo_2024-03-12_10-59-53.jpg",
     salary: "10",
     description: "Gentle foaming face wash for acne prone skin.",
     categoryNumber: "c5",
@@ -302,7 +302,7 @@ const List<Material> materials = [
   Material(
     id: "m35",
     title: "Foaming Face Wash",
-    imageUrl: "photo_2024-03-12_10-59-58.jpg",
+    imageUrl: "makeup/photo_2024-03-12_10-59-58.jpg",
     salary: "10",
     description: "Gentle face wash that creates a rich foam to cleanse the skin deeply.",
     categoryNumber: "c5",
@@ -310,7 +310,7 @@ const List<Material> materials = [
   Material(
     id: "m36",
     title: "Oil Control Face Wash",
-    imageUrl: "photo_2024-03-12_11-00-06.jpg",
+    imageUrl: "makeup/photo_2024-03-12_11-00-06.jpg",
     salary: "12",
     description: "Face wash formulated to control excess oil and minimize shine.",
     categoryNumber: "c5",
@@ -318,7 +318,7 @@ const List<Material> materials = [
   Material(
     id: "m37",
     title: "Acne Control Face Wash",
-    imageUrl: "photo_2024-03-12_11-00-07.jpg",
+    imageUrl: "makeup/photo_2024-03-12_11-00-07.jpg",
     salary: "14",
     description: "Face wash with acne-fighting ingredients to prevent and treat breakouts.",
     categoryNumber: "c5",
@@ -326,7 +326,7 @@ const List<Material> materials = [
   Material(
     id: "m38",
     title: "Brightening Face Wash",
-    imageUrl: "photo_2024-03-12_11-00-10.jpg",
+    imageUrl: "makeup/photo_2024-03-12_11-00-10.jpg",
     salary: "16",
     description: "Face wash that brightens the complexion and evens out skin tone.",
     categoryNumber: "c5",
@@ -337,7 +337,7 @@ const List<Material> materials = [
   Material(
     id: "m39",
     title: "Refreshing Toner - Normal Skin",
-    imageUrl: "photo_2024-03-12_11-00-11.jpg",
+    imageUrl: "makeup/photo_2024-03-12_11-00-11.jpg",
     salary: "15",
     description: "Alcohol-free toner for normal skin types.",
     categoryNumber: "c6",
@@ -345,7 +345,7 @@ const List<Material> materials = [
   Material(
     id: "m40",
     title: "Refreshing Toner - Dry Skin",
-    imageUrl: "photo_2024-03-12_11-00-12.jpg",
+    imageUrl: "makeup/photo_2024-03-12_11-00-12.jpg",
     salary: "15",
     description: "Alcohol-free toner for dry skin types.",
     categoryNumber: "c6",
@@ -353,7 +353,7 @@ const List<Material> materials = [
   Material(
     id: "m41",
     title: "Hydrating Toner",
-    imageUrl: "photo_2024-03-12_11-00-13.jpg",
+    imageUrl: "makeup/photo_2024-03-12_11-00-13.jpg",
     salary: "18",
     description: "Toner that replenishes moisture and refreshes the skin, leaving it hydrated and supple.",
     categoryNumber: "c6",
@@ -361,7 +361,7 @@ const List<Material> materials = [
   Material(
     id: "m42",
     title: "Balancing Toner",
-    imageUrl: "photo_2024-03-12_11-00-15.jpg",
+    imageUrl: "makeup/photo_2024-03-12_11-00-15.jpg",
     salary: "20",
     description: "Toner that balances the skin's pH levels and controls excess oil for a matte finish.",
     categoryNumber: "c6",
@@ -369,7 +369,7 @@ const List<Material> materials = [
   Material(
     id: "m43",
     title: "Clarifying Toner",
-    imageUrl: "photo_2024-03-12_11-00-17.jpg",
+    imageUrl: "makeup/photo_2024-03-12_11-00-17.jpg",
     salary: "22",
     description: "Toner with clarifying ingredients to remove impurities and minimize pores.",
     categoryNumber: "c6",
@@ -377,7 +377,7 @@ const List<Material> materials = [
   Material(
     id: "m44",
     title: "Revitalizing Toner",
-    imageUrl: "photo_2024-03-12_11-00-18.jpg",
+    imageUrl: "makeup/photo_2024-03-12_11-00-18.jpg",
     salary: "24",
     description: "Toner that revitalizes dull skin and promotes a radiant complexion.",
     categoryNumber: "c6",
@@ -388,7 +388,7 @@ const List<Material> materials = [
   Material(
     id: "m45",
     title: "Moisturizing Lip Balm - Berry",
-    imageUrl: "photo_2024-03-12_11-00-19.jpg",
+    imageUrl: "makeup/photo_2024-03-12_11-00-19.jpg",
     salary: "8",
     description: "Hydrating lip balm with a hint of berry flavor.",
     categoryNumber: "c7",
@@ -396,7 +396,7 @@ const List<Material> materials = [
   Material(
     id: "m46",
     title: "Moisturizing Lip Balm - Mint",
-    imageUrl: "photo_2024-03-12_11-00-20.jpg",
+    imageUrl: "makeup/photo_2024-03-12_11-00-20.jpg",
     salary: "8",
     description: "Hydrating lip balm with a refreshing mint scent.",
     categoryNumber: "c7",
@@ -404,7 +404,7 @@ const List<Material> materials = [
   Material(
     id: "m47",
     title: "Nourishing Lip Balm",
-    imageUrl: "photo_2024-03-12_11-00-22.jpg",
+    imageUrl: "makeup/photo_2024-03-12_11-00-22.jpg",
     salary: "8",
     description: "Lip balm enriched with moisturizing ingredients like shea butter and vitamin E to nourish and soften lips.",
     categoryNumber: "c7",
@@ -412,7 +412,7 @@ const List<Material> materials = [
   Material(
     id: "m48",
     title: "Tinted Lip Balm",
-    imageUrl: "photo_2024-03-12_11-00-23.jpg",
+    imageUrl: "makeup/photo_2024-03-12_11-00-23.jpg",
     salary: "10",
     description: "Lip balm with a hint of color to provide a subtle tint while hydrating the lips.",
     categoryNumber: "c7",
@@ -420,7 +420,7 @@ const List<Material> materials = [
   Material(
     id: "m49",
     title: "SPF Lip Balm",
-    imageUrl: "photo_2024-03-12_11-00-24.jpg",
+    imageUrl: "makeup/photo_2024-03-12_11-00-24.jpg",
     salary: "12",
     description: "Lip balm with SPF protection to shield lips from the sun's harmful UV rays.",
     categoryNumber: "c7",
