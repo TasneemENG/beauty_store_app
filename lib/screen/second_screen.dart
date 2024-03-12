@@ -16,7 +16,8 @@ class _SecondScreenState extends State<SecondScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Colors.white,
+        backgroundColor: Color(0xFFFC9184),
+        title: Text("Beauty Store", style: TextStyle(color: Colors.white, fontWeight: FontWeight.bold ),),
 
       ),
       body: ListView(
@@ -24,10 +25,10 @@ class _SecondScreenState extends State<SecondScreen> {
           Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              SizedBox(height: 4),
+              //SizedBox(height: 4),
               Container(
-                height: 200,
-                color: Color(0xFFFC9184),
+                height: 300,
+                //color: Color(0xFFFC9184),
                 child: CarouselSlider(
                   items: categories.map((category) {
                     return CategoryItem(
@@ -46,46 +47,49 @@ class _SecondScreenState extends State<SecondScreen> {
                   ),
                 ),
               ),
-              SizedBox(height: 10),
               Container(
-                child: ListView.builder(
-                  shrinkWrap: true,
-                  physics: NeverScrollableScrollPhysics(),
-                  itemCount: (materials.length / 2).ceil(),
-                  itemBuilder: (context, index) {
-                    var material1 = materials[index * 2];
-                    var material2 = (index * 2 + 1 < materials.length)
-                        ? materials[index * 2 + 1]
-                        : null;
+                color: Color(0xFFFC9184),
+                child: Padding(
+                  padding: const EdgeInsets.all(5.0),
+                  child: ListView.builder(
+                    shrinkWrap: true,
+                    physics: NeverScrollableScrollPhysics(),
+                    itemCount: (materials.length / 2).ceil(),
+                    itemBuilder: (context, index) {
+                      var material1 = materials[index * 2];
+                      var material2 = (index * 2 + 1 < materials.length)
+                          ? materials[index * 2 + 1]
+                          : null;
 
-                    return Row(
-                      children: [
-                        Expanded(
-                          child: MaterialItem(
-                            id: material1.id,
-                            title: material1.title,
-                            imageUrl: material1.imageUrl,
-                            salary: material1.salary,
-                            description: material1.description,
-                            categoryNumber: material1.categoryNumber,
-                          ),
-                        ),
-                        if (material2 != null) ...[
-                          SizedBox(width: 10),
+                      return Row(
+                        children: [
                           Expanded(
                             child: MaterialItem(
-                              id: material2.id,
-                              title: material2.title,
-                              imageUrl: material2.imageUrl,
-                              salary: material2.salary,
-                              description: material2.description,
-                              categoryNumber: material2.categoryNumber,
+                              id: material1.id,
+                              title: material1.title,
+                              imageUrl: material1.imageUrl,
+                              salary: material1.salary,
+                              description: material1.description,
+                              categoryNumber: material1.categoryNumber,
                             ),
                           ),
+                          if (material2 != null) ...[
+                            SizedBox(width: 10),
+                            Expanded(
+                              child: MaterialItem(
+                                id: material2.id,
+                                title: material2.title,
+                                imageUrl: material2.imageUrl,
+                                salary: material2.salary,
+                                description: material2.description,
+                                categoryNumber: material2.categoryNumber,
+                              ),
+                            ),
+                          ],
                         ],
-                      ],
-                    );
-                  },
+                      );
+                    },
+                  ),
                 ),
               ),
             ],

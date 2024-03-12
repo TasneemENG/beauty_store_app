@@ -16,7 +16,7 @@ const List<Material> materials = [
   // Foundation
   Material(
     id: "m1",
-    title: "Liquid Foundation - Shade 1",
+    title: "Liquid Foundation",
     imageUrl: "makeup/photo_2024-03-11_14-32-05.jpg",
     salary: "25",
     description: "Medium coverage liquid foundation for all skin types.",
@@ -123,8 +123,8 @@ const List<Material> materials = [
   ),
   Material(
     id: "m14",
-    title: "photo_2024-03-11_14-32-32.jpg",
-    imageUrl: "makeup/cheek_stain.jpg",
+    title: "cheek stain",
+    imageUrl: "makeup/photo_2024-03-11_14-32-32.jpg",
     salary: "24",
     description: "Long-lasting cheek stain for a natural flush of color.",
     categoryNumber: "c2",
