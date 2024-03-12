@@ -49,40 +49,43 @@ class MaterialItem extends StatelessWidget {
                   Text(
                     title,
                     style: TextStyle(
-                      fontSize: 14.0, // Adjust the font size
+                      fontSize: 16.0,
                       fontWeight: FontWeight.bold,
                       color: Colors.black,
                     ),
                   ),
-                  SizedBox(height: 4.0),
+                  SizedBox(height: 8.0),
                   Text(
                     'Salary: \$${salary.toString()}',
                     style: TextStyle(
-                      fontSize: 12.0, // Adjust the font size
+                      fontSize: 14.0,
                       color: Colors.purple,
                     ),
                   ),
-                  SizedBox(height: 4.0),
+                  SizedBox(height: 8.0),
                   Text(
                     description,
                     style: TextStyle(
-                      fontSize: 10.0, // Adjust the font size
-                      color: Colors.black,
+                      fontSize: 12.0,
+                      color: Colors.black54,
                     ),
                   ),
                 ],
               ),
             ),
-            Row(
-              mainAxisAlignment: MainAxisAlignment.spaceBetween,
-              children: [
-                IconButton(
-                  icon: Icon(Icons.add_shopping_cart, color: Colors.pink),
-                  onPressed: () {
-                    // Add your "Add to Cart" logic here
-                  },
-                ),
-              ],
+            Padding(
+              padding: const EdgeInsets.all(8.0),
+              child: Row(
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                children: [
+                  IconButton(
+                    icon: Icon(Icons.add_shopping_cart, color: Colors.pink),
+                    onPressed: () {
+                      // Add your "Add to Cart" logic here
+                    },
+                  ),
+                ],
+              ),
             ),
           ],
         ),
