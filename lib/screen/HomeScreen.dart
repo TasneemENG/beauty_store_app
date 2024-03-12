@@ -14,9 +14,9 @@ class HomeScreen extends StatelessWidget {
             height: double.infinity,
             width: double.infinity,
             color: Color(0xFFFC9184),
-            child: Image.network(
-             "https://i1.wp.com/sparkleisthenewblack.com/wp-content/uploads/2015/04/Molimakeup-Smile-e1429768217376.jpg?resize=600%2C600",
-              fit: BoxFit.fill,
+            child: Image.asset(
+              "makeup/photo_2024-03-12_11-00-30.jpg",
+              fit: BoxFit.cover,
             ),
           ),
           Container(

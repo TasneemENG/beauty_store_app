@@ -1,3 +1,4 @@
+import 'package:beauty_store_app/screen/MaterialDetailScreen.dart';
 import 'package:flutter/material.dart';
 
 class MaterialItem extends StatelessWidget {
@@ -17,10 +18,6 @@ class MaterialItem extends StatelessWidget {
     required this.categoryNumber,
   });
 
-  void _handleTap() {
-    // Handle material item tap
-  }
-
   void _addToCart() {
     // Add your "Add to Cart" logic here
   }
@@ -29,7 +26,21 @@ class MaterialItem extends StatelessWidget {
   Widget build(BuildContext context) {
     return InkWell(
       borderRadius: BorderRadius.circular(15.0),
-      onTap: _handleTap,
+      onTap: () {
+        Navigator.push(
+        context,
+        MaterialPageRoute(
+          builder: (context) => MaterialDetailScreen(
+            id: id,
+            title: title,
+            imageUrl: imageUrl,
+            salary: salary,
+            description: description,
+            categoryNumber: categoryNumber,
+          ),
+        ),
+      );
+      },
       child: Card(
         elevation: 3.0,
         shape: RoundedRectangleBorder(
